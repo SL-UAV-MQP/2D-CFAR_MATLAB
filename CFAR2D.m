@@ -1,14 +1,5 @@
 classdef CFAR2D < handle
     % CFAR2D - 2D Order-Statistic CFAR Detector
-    % ==========================================
-    %
-    % Implements adaptive thresholding for MUSIC AOA validation
-    % in multipath environments. Optimized for real-time processing.
-    %
-    % Based on OS-CFAR (Order-Statistic Constant False Alarm Rate)
-    %
-    % Author: Ported from Python implementation
-    % Date: 2025-12-08
 
     properties
         % Window dimensions
